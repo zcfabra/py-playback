@@ -8,11 +8,8 @@ import sys
 from types import FrameType
 from typing import Any, Callable, Optional
 
-from schemas import Frame, IsWalkable, Walkable, FrameEvent, PlaybackEncoder
+from schemas import Frame, FrameEvent, PlaybackEncoder
 from utils import get_tree
-
-
-MAX_DEPTH = 10
 
 
 class SerializeMode(Enum):

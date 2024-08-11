@@ -1,6 +1,7 @@
 from typing import Any
-from main import MAX_DEPTH
 from schemas import IsWalkable, Walkable
+
+MAX_DEPTH = 10
 
 
 def get_tree(
